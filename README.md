@@ -12,12 +12,12 @@ This repository contains simple and clear STM32F1 examples for the Arduino IDE.
   3. Tools → Board → Board Manager → Search "STM32" → Install **STM32 by STMicroelectronics**
 - STMcubeprogrammer(serial) 
 
- ##Upload Process
-1.Open any .ino file (like Blink_PC13.ino from the ZIP).
-2.Press Upload in Arduino IDE.
-3.While uploading:
-  Press and release RESET button on the board if upload doesn’t start automatically.
-4.Once upload is done:
-  Set BOOT0 = 0 back to normal mode.
-  Press RESET again to run your code.
+ ## Upload Process
+1. Open any .ino file (like Blink_PC13.ino from the ZIP).
+2. Press Upload in Arduino IDE.
+3. While uploading:
+  -Press and release RESET button on the board if upload doesn’t start automatically.
+4. Once upload is done:
+  -Set BOOT0 = 0 back to normal mode.
+  -Press RESET again to run your code.
 
